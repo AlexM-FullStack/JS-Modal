@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Modal</title>
+</head>
+<body>
+
+    <button id="modal-open" class="btn">Contact Us</button>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+
+            <div id="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h3>Escape Travel Agency</h3>
+            </div>
+
+            <div id="modal-body">
+                <h3>Send Us a Message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="first-name">Name</label>
+                        <input type="text" placeholder="Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea placeholder="Enter a Message"></textarea>
+                    </div>
+                    <input id="submit" type="submit" value="Submit">
+
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
